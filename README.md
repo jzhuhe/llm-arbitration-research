@@ -2,57 +2,6 @@
 
 This repository contains the complete research materials from a study comparing AI-generated legal submissions with winning human teams from the 2024 Vis Moot competition.
 
-## Research Overview
-
-This study investigates whether frontier LLMs can draft Vis Moot submissions as persuasively and accurately as 2024's winning universities from 373 teams. The research tests three key assumptions about LLMs in legal practice:
-
-1. **Productivity gains** - Can AI produce legal work faster?
-2. **Accuracy concerns** - How reliable are AI-generated legal citations?
-3. **Legal reasoning capability** - Can AI perform genuine legal analysis?
-
-### Key Findings
-
-**🏆 Performance Results:**
-- **Claude 3.7 Sonnet's** claimant memorial ranked alongside the 1st and 2nd human teams, ahead of 3rd and 4th place winners
-- Other LLMs ranked below human submissions
-- Demonstrated emerging AI persuasion capabilities rivaling top law students
-
-**📊 Accuracy Results:**
-- **Poor citation accuracy**: Only 9%-36% of legal citations were pinpoint accurate
-- Significant reliability issues with legal precedents and references
-
-**⚡ Productivity Results:**
-- **Dramatic time savings**: LLMs produced complete submissions in under 9.5 hours with one person
-- **Human comparison**: Traditional teams averaged 6.2 people working for months
-- Clear productivity advantages for legal research and drafting
-
-### The Case Background
-
-All submissions address the same fictional international commercial arbitration case involving:
-- **SensorX plc** (technology company selling sensors)
-- **Visionic Ltd** (automotive company buying sensors)  
-- A cyber fraud incident that misdirected payment
-- Questions of contractual obligations and liability
-- International sales law and arbitration procedures
-
-### Technical Notes
-
-- All submissions were generated using customized prompts
-- Models had access to the same case materials
-- Outputs were anonymized before evaluation
-- Blind ranking was conducted by 2 legal students competing in the 2025 Vis Moot
-- No model had access to actual case law databases during generation
-
-
-### Research Significance
-
-This study represents a significant milestone in AI legal capabilities research, demonstrating that:
-- **AI can produce sophisticated legal arguments** comparable to top law students
-- **Citation accuracy remains a critical weakness** requiring human oversight
-- **Productivity gains are substantial** but quality control is essential
-- **Legal education may need adaptation** to address AI capabilities
-- **The legal profession faces transformation** in research and drafting practices
-
 ## Repository Structure
 
 ### 📁 A - Prompt Engineering
@@ -105,4 +54,55 @@ Supporting research materials and technical documentation:
 - **`api_coding.md`** - Technical challenges encountered with API implementation
 - **`extract_text_citations_into_csv.py`** - Python script for citation accuracy analysis
 - **`public_statements_by_model_providers_on_training_dataset.md`** - AI training data transparency research
+
+## Research Overview
+
+This study investigates whether frontier LLMs can draft Vis Moot submissions as persuasively and accurately as 2024's winning universities from 373 teams. The research tests three key assumptions about LLMs in legal practice:
+
+1. **Productivity gains** - Can AI produce legal work faster?
+2. **Accuracy concerns** - How reliable are AI-generated legal citations?
+3. **Legal reasoning capability** - Can AI perform genuine legal analysis?
+
+### Key Findings
+
+**🏆 Performance Results:**
+- **Claude 3.7 Sonnet's** claimant memorial ranked alongside the 1st and 2nd human teams, ahead of 3rd and 4th place winners
+- Other LLMs ranked below human submissions
+- Demonstrated emerging AI persuasion capabilities rivaling top law students
+
+**📊 Accuracy Results:**
+- **Poor citation accuracy**: Only 9%-36% of legal citations were pinpoint accurate
+- Significant reliability issues with legal precedents and references
+
+**⚡ Productivity Results:**
+- **Dramatic time savings**: LLMs produced complete submissions in under 9.5 hours with one person
+- **Human comparison**: Traditional teams averaged 6.2 people working for months
+- Clear productivity advantages for legal research and drafting
+
+### The Case Background
+
+All submissions address the same fictional international commercial arbitration case involving:
+- **SensorX plc** (technology company selling sensors)
+- **Visionic Ltd** (automotive company buying sensors)  
+- A cyber fraud incident that misdirected payment
+- Questions of contractual obligations and liability
+- International sales law and arbitration procedures
+
+### Technical Notes
+
+- All submissions were generated using customized prompts
+- Models had access to the same case materials
+- Outputs were anonymized before evaluation
+- Blind ranking was conducted by 2 legal students competing in the 2025 Vis Moot
+- No model had access to actual case law databases during generation
+
+
+### Research Significance
+
+This study represents a significant milestone in AI legal capabilities research, demonstrating that:
+- **AI can produce sophisticated legal arguments** comparable to top law students
+- **Citation accuracy remains a critical weakness** requiring human oversight
+- **Productivity gains are substantial** but quality control is essential
+- **Legal education may need adaptation** to address AI capabilities
+- **The legal profession faces transformation** in research and drafting practices
 
